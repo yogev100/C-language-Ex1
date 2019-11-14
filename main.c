@@ -21,11 +21,11 @@ double f1(double x){
 }
 
 double f2(double x){
-	double y=add(mul(3,x),mul(2,Pow(x,2)));
+	double y=add(mul(x,3),mul(Pow(x,2),2));
 	return y;
 }
 
 double f3(double x){
-	return sub(div(mul(4,Pow(x,3)),5),mul(2,x));
+	return sub(div(mul(Pow(x,3),4),5),mul(x,2));
 
 }
